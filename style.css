@@ -1,0 +1,31 @@
+
+body {
+  font-family: sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #fafafa;
+  color: #333;
+}
+header {
+  background-color: #2c3e50;
+  color: white;
+  text-align: center;
+  padding: 1rem;
+}
+.gallery {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 2rem;
+  padding: 2rem;
+}
+.item {
+  background-color: white;
+  border-radius: 10px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  padding: 1rem;
+}
+.item img {
+  max-width: 100%;
+  border-radius: 8px;
+}
